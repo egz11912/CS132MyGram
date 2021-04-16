@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{849F8192-EB72-4CDC-9D51-7878299CFA76}|Default">
   <MonoDevelop.Ide.ItemProperties.CS132MyGram PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CS132MyGram/Models/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS132MyGram/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="CS132MyGram/Startup.cs" Line="55" Column="1" />
-      <File FileName="CS132MyGram/Views/Shared/_Layout.cshtml" Line="22" Column="101" />
-      <File FileName="CS132MyGram/Views/Home/Index.cshtml" />
+      <File FileName="CS132MyGram/Views/Shared/_Layout.cshtml" Line="42" Column="1" />
+      <File FileName="CS132MyGram/Views/Home/Index.cshtml" Line="1" Column="1" />
       <File FileName="CS132MyGram/Models/Image.cs" Line="15" Column="1" />
-      <File FileName="CS132MyGram/Controllers/ImagesController.cs" />
-      <File FileName="CS132MyGram/Views/Images/GetAllImages.cshtml" />
-      <File FileName="CS132MyGram/Controllers/UsersController.cs" Line="19" Column="38" />
-      <File FileName="CS132MyGram/Views/Users/Login.cshtml" Line="1" Column="41" />
-      <File FileName="CS132MyGram/Models/User.cs" Line="1" Column="1" />
+      <File FileName="CS132MyGram/Controllers/ImagesController.cs" Line="180" Column="36" />
+      <File FileName="CS132MyGram/Views/Images/GetAllImages.cshtml" Line="21" Column="40" />
+      <File FileName="CS132MyGram/Controllers/UsersController.cs" Line="27" Column="36" />
+      <File FileName="CS132MyGram/Views/Users/Login.cshtml" Line="17" Column="51" />
+      <File FileName="CS132MyGram/Models/User.cs" Line="11" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +18,13 @@
           <Node name="CS132MyGram" expanded="True">
             <Node name="CS132MyGram" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="User.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Images" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
                 <Node name="Users" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
